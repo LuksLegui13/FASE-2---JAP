@@ -1,0 +1,78 @@
+/* Estilo general del body */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado utilizando ID */
+#encabezado {
+    background-color: #336699;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+    color: #336699;
+}
+
+/* Estilo del pie de página utilizando ID */
+#pie-pagina{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/* Estilo general para las tarjetas (usando clase) */
+.tarjeta-presentacion {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Efecto al pasar el mouse */
+.tarjeta-presentacion:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilo para la imagen (usando clase) */
+.img{
+    width: 200px;   
+    height: 200px;
+    object-fit: cover;     
+    border-radius: 50%;     
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 0 5px black; 
+}
+
+
+.tarjeta-presentacion select {
+    padding: 10px;
+    width: 80%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.tarjeta-presentacion button {
+    background-color: #336699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tarjeta-presentacion button:hover {
+    background-color: #224d77;
+}

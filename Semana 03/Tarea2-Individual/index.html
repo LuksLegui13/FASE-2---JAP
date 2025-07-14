@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer sitio web</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Encabezado principal con mi presentación -->
+    <header id="encabezado">
+        <h1>Hola soy Lucas :)</h1>
+        <p>Estudiante de Jóvenes a Programar - Desarrollo web - Grupo 312</p>
+    </header>
+
+    <!-- Contenido principal de la página -->
+    <main>
+
+        <!-- Sección 1: Presentación personal -->
+        <section>
+            <article class="tarjeta-presentacion"> 
+                <h2>¿Quién soy?</h2>
+                <p>Soy profesor de Ciencias Computacionales en DGES y en DGETP, donde también doy clases de Tecnología, Diseño Web y Diseño Gráfico Gastronómico. Me encanta la tecnología y, sobre todo, poder aplicarla en contextos donde muchas veces se la ve como algo lejano o inaccesible.</p>
+                <p>Trabajo en varias instituciones, pero tengo un fuerte sentido de pertenencia por una escuela agraria donde estamos participando en las Olimpiadas de Robótica, en las categorías Robótica y Do Your Bit.</p>
+                <p>Disfruto mucho dar clases. Es una tarea que se adapta a mi forma de ser: cambiar, moverme, innovar. Estar ocho horas sentado frente a un escritorio no es lo mío. Este trabajo me ocupa mucho tiempo, pero también me llena. Estoy en Jóvenes a Programar porque quiero seguir creciendo, tanto a nivel personal como profesional, en este camino que realmente me apasiona.</p>
+                <img src="imagenes/foto-lucas.jpeg" alt="foto-personal" class="img">
+            </article>
+        </section>
+
+        <!-- Sección 2: Contenido aprendido -->
+        <section>
+            <article class="tarjeta-presentacion">
+                <h2>Lo que hemos aprendido en JAP</h2>
+                <p>En estas primeras semanas del curso de Jóvenes a Programar vimos contenidos muy valiosos. Empezamos con las competencias transversales, trabajando sobre nuestra motivación, propósito y habilidades personales.</p>
+                <p>En el área de Desarrollo Web, aprendimos cómo funciona la web, cómo crear estructuras con HTML y cómo aplicar estilos con CSS. Gracias a eso, ya soy capaz de desarrollar páginas básicas usando etiquetas semánticas y hojas de estilo externas. ¡Y esto recién empieza!</p>
+                <p>Además, contamos con clases de inglés a través de la plataforma Voxy, donde aprendemos con docentes internacionales. Es una linda experiencia que complementa el curso y nos permite mejorar nuestras habilidades en el idioma. Actualmente, me encuentro en el nivel A2 de inglés, y estoy muy motivado por seguir avanzando.</p>
+
+            </article>
+        </section>
+
+        <!-- Sección 3: Progreso y entregas -->
+        <section>
+            <article class="tarjeta-presentacion">
+                <h2>Progreso en el curso</h2>
+                <form  action="" onsubmit="window.open(document.getElementById('trabajos').value); return false;">
+                    <label for="trabajos">Seleccioná una tarea: </label>
+                    <select id="trabajos" required>
+                        <optgroup label="Semana 1">
+                            <option value="../../Semana 01/Tarea1-Individual/index.html">Tarea 1 - Individual</option>
+                            <option value="../../Semana 01/Tarea1-Equipo/index.html">Tarea 2 - Equipo</option>
+                        </optgroup>
+                        <optgroup label="Semana 2">
+                            <option value="../../Semana 02/Tarea1-Individual/index.html">Tarea 1 - Individual</option>
+                            <option value="../../Semana 02/Tarea2-Individual/index.html">Tarea 2 - Individual</option>
+                            <option value="../../Semana 02/Tarea3-Grupal/index.html">Tarea 3 - Grupal</option>
+                        </optgroup>
+                        <optgroup label="Semana 3">
+                            <option value="../Tarea1-Individual/index.html">Tarea 1 - Individual</option>
+                            <option value="index.html">Tarea 1 - Individual - Página web (actual)</option>
+                        </optgroup>
+                    </select>
+                    <button type="submit">Abrir</button>
+                </form>
+            </article>
+        </section>
+
+        <!-- Sección 4: Equipo multidisciplinario -->
+        <section>
+            <article class="tarjeta-presentacion">
+            <h2>Equipo multidisciplinario</h2>
+            <p class="descripcion-equipo">Durante el curso vamos a conformar un equipo multidisciplinario que simula cómo se trabaja en una empresa real. Más que nada, esta sección estará destinada a presentarnos como grupo, contar quiénes somos y qué rol tendrá cada integrante. A medida que avancemos, vamos a ir mostrando nuestros trabajos en equipo, reflejando el progreso que vayamos logrando. La idea también es que esta misma página web evolucione con nosotros, mejorándola paso a paso mientras aplicamos lo que aprendemos.</p>
+            </article>
+        </section>
+
+    </main>
+
+    <!-- Pie de página con derechos de autor -->
+    <footer id="pie-pagina">
+        <p>&copy; 2025 - Mi primer sitio web - Lucas Leguizamón </p>
+    </footer>
+</body>
+</html>

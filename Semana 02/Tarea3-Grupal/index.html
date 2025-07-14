@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header> <!--Seccion de presentacion-->
+        <h1>Mariana García</h1>
+        <p>Me apasionan temas como son: los negoicos en internet, la analitica web, la optimizacion web (A/B Testing, UX,...), el SEO, los moviles y el SoLoMo, el emprendimiento y los startups, las redes sociales aplicadas a los negocios, las tecnologías web, etc.    </p>
+    </header>
+    <hr>
+    <main>    
+    <section class="indice">
+        <h2>Indice</h2>
+        <ul class="lista-indice">
+           <a href="#experiencia-profesional"> <li>Experiencia profesional</li></a> 
+           <a href="#habilidades-conocimientos"> <li>Habilidades y Conocimientos</li></a>
+           <a href="#educacion"> <li>Educación </li></a>
+           <a href="#perfiles-sociales"> <li>Perfiles Sociales</li></a>
+           <a href="#contacto"> <li>Contactar</li></a>
+        </ul>  
+    </section> 
+    <hr> <!--Seccion de experiencia profesional-->
+    <section id="experiencia-profesional">
+        <h2>Experiencia Profesional</h2>
+        <table>
+             <thead>
+          <tr>
+             <th><strong>Empresa / Organizacion</strong></th>
+             <th><strong>Cargo</strong></th>
+             <th><strong>Localización</strong></th>
+             <th><strong>Desde-hasta</strong></th>
+          </tr>
+         </thead>
+         <tbody>
+          <tr>
+             <td>Esri Argentina</td>
+             <td>Encabezando el equipo de desarrolladores</td>
+             <td>Buenos Aires (Argentina)</td>
+             <td>Marzo 2014- Actualidad</td>
+          </tr>
+          <tr>
+             <td>Upplication</td>
+             <td>Programadora Front-End</td>
+              <td>Montevideo</td>
+              <td>Noviembre 2013 -Marzo 2014</td>
+          </tr>
+          <tr>
+             <td>Universidad de la Republica-Ingenieria</td>
+             <td>Profesora de Programación 1</td>
+              <td>Montevideo</td>
+              <td>Noviembre 2013 -Marzo 2015</td>
+          </tr>
+          <tr>
+             <td>Google Developers Group</td>
+             <td>Coordinadora nacional</td>
+              <td>Buenos Aires</td>
+              <td>Setiembre 2012- Enero 2013</td>
+          </tr>
+         </tbody>
+            
+        </table>
+         
+    </section>  
+    <hr><!--Seccion de habilidades y conocimientos-->
+    <section id="habilidades-conocimientos">
+        <h2>Habilidades y conocimientos</h2>
+         <ul>
+            <li><strong>Desarrollo web:</strong> HTML5, CSS3, JavaScript, Python+Django, LESS & SASS, PHP, SEO, Node.js, MySQL, AngularJS, jQuery, Bootstrap, Dojo, responsive design, WordPress, usabilidad, CoffeScript, etc.</li>
+            <li><strong>Analítica web/Métricas:</strong> Google Analytics, Mixpanel, segment.io, etc.</li>
+            <li><strong>Gestión:</strong> SCRUM, gestión de comunidades y organización de eventos, gestión de equipos, etc.</li>
+            <li><strong>Emprendimiento:</strong> startups, Lean Startup, etc.</li>
+            <li><strong>Aplicaciones móviles:</strong> Phonegap</li>
+            <li><strong>Marketing:</strong> email marketing, redes sociales, gamificación, nurture marketing, lead scoring, etc.</li>
+            <li><strong>Sistemas de información geográfica (GIS):</strong> ArcGIS APIs.</li>
+         </ul>
+    </section>
+    <hr><!--Seccion de educacion-->
+    <section id="educacion">
+        <h2>Educacion</h2> 
+        <table>
+            <tr>
+                <th>Titulo</th>
+                <th>Entidad</th>
+                <th>Promoción</th>
+            </tr>
+            <tr>
+                <td>Desarrollo web</td>
+                <td>Plan Ceibal(Jovenes a Programar)</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>Curso:Creacion de empresas</td>
+                <td>Escuela de Negocios</td>
+                <td>2009</td>
+            </tr>  
+        </table>
+    </section>
+    <hr><!--Seccion de perfiles sociales-->
+    <section id="perfiles-sociales">
+        <h2>Perfiles sociales</h2>
+        <p>También puedes encontrarme en:</p>
+            <ul>
+                <li><a href="">MarianaGarcía</a></li>
+                <li><a href="#">Github</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Linkedin</a></li>
+            </ul>
+    </section>
+    <hr> <!--Seccion de contacto-->
+    <section id="contacto">
+        <form action="#" method="post">
+            <label for="para">Para: </label>
+            <input type="text" name="para" id="para"> <br><br>
+            
+            <label for="tematica">Temática: </label> <br>
+            <select id="tematica" name="tematica">
+                <option value=""> -- Elige un tema --</option>
+                <option value="consulta">Consulta</option>
+                <option value="propuesta">Propuesta</option>
+                <option value="reporte">Reporte</option>
+                <option value="otro">Otro</option>
+            </select> <br><br>
+
+            <label for="asunto">Asunto: </label> <br>
+            <input type="text" id="asunto" name="asunto"> <br><br>
+
+            <label for="cuerpo">Cuerpo: </label> <br>
+            <textarea id="cuerpo" name="cuerpo" rows="4" cols="40"></textarea> <br><br>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
