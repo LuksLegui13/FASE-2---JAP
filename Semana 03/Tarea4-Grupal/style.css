@@ -1,0 +1,42 @@
+body {
+    background-color: #d9d9d9;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: Arial !important;
+}
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 45px;
+}
+h2 {
+    background-color: #696666;
+    color: white;
+    padding: 8px;
+    width: 80%;
+    margin: auto;
+    font-size: 30px;
+}
+img{
+    float: left;
+    width: 100px;
+    margin-right: 20px;
+}
+.caja{
+    width: 60%;
+    margin: auto;
+}
+strong{
+    background-color: white;
+}
+em{
+    color: red;
+}
+p{
+    text-indent: 27px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+}
+.clear {
+  clear: both;
+}

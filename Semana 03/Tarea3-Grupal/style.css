@@ -1,0 +1,10 @@
+img{ 
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /*Sombra en imágenes*/
+  border-radius: 50px; /*Le damos curvatura a los bordes*/
+  margin: 5px; /*Espacio*/
+  display: flexbox;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
